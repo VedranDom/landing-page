@@ -1,0 +1,162 @@
+body /*body is to style all elements in the body*/
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(129, 196, 235);
+    text-align: center;
+}
+.header
+{
+   display: flex;
+   flex-direction: column;
+   color: white;
+}
+
+
+
+.header-links
+{
+    margin-left: 400px;
+    display: flex;
+    gap: 15px;
+    margin-top: 0px;
+    color: white;
+}
+
+.header-links a /*to style links in the header on the right*/
+{
+    color: #ececec;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.left img /*logo on the left*/
+{
+    margin-right: auto;
+    display: flex;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.headline
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.headline-main
+{
+ display: flex;
+ text-align: left;
+ flex-direction: column;
+ margin-right: 50px;
+ flex-basis: 400px;
+}
+
+.headline-main p  /*to style text under the headline*/
+{
+    font-family: roboto;
+    opacity: 0.7;
+}
+
+h1
+{
+    font-size: 40px;
+    font-family: roboto;
+    margin: 0;
+
+}
+
+.headline button /*Sign up button in the headline*/
+{
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button:hover /*if you hover over sign up button you will lover his opacity*/
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.image
+{
+    width: 300px;
+}
+
+.main-part
+{
+    align-items: center;
+    background-color: rgb(130, 47, 151);
+    margin: 0;
+}
+
+.main-part h2 /*headline on the 3. section*/
+{
+    font-size: 35px;
+    background-color: rgb(130, 47, 151);
+    margin: 0;
+}
+
+.pic
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(130, 47, 151);
+    padding: 15px;
+}
+
+
+.pic img /*to style images on the 3. section*/
+{
+    width: 100px;
+    height: 40px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+    background-color: rgb(130, 47, 151);
+}
+
+.pic p
+{
+font-size: 15px;
+font-weight: bold;
+}
+ 
+.inspiration
+{
+    display: flex;
+    margin-top: 0px;
+    background-color: rgb(235, 94, 105);
+    padding-top: 40px;
+    text-align: right;
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.inspiration h3 /*text on 4. section or customer recommendations*/
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.inspiration p /*name of customer*/
+{
+    padding-left: 20px; 
+}
