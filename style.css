@@ -99,14 +99,14 @@ button:hover /*if you hover over sign up button you will lover his opacity*/
 .main-part
 {
     align-items: center;
-    background-color: rgb(130, 47, 151);
+    background-color: rgb(170, 83, 192);
     margin: 0;
 }
 
 .main-part h2 /*headline on the 3. section*/
 {
     font-size: 35px;
-    background-color: rgb(130, 47, 151);
+    background-color: rgb(170, 83, 192);
     margin: 0;
 }
 
@@ -115,7 +115,7 @@ button:hover /*if you hover over sign up button you will lover his opacity*/
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(130, 47, 151);
+    background-color: rgb(170, 84, 192);
     padding: 15px;
 }
 
@@ -141,7 +141,7 @@ font-weight: bold;
 {
     display: flex;
     margin-top: 0px;
-    background-color: rgb(235, 94, 105);
+    background-color: rgb(149, 255, 163);
     padding-top: 40px;
     text-align: right;
     padding-bottom: 10px;
